@@ -12,9 +12,6 @@ app.use(express.json());
 // }));
 // vi.mock('../db');
 
-
-//thsi will take the db.ts to mock  
-vi.mock('../db');
 const sumInput = z.object({
     a: z.number(),
     b: z.number()
